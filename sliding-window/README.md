@@ -52,7 +52,8 @@ diff <filename> data/<client_port>.in
 ```
 
 ## Future Plans
-- [ ] Add packet loss/delay/corruption simulation to test reliability.
+- [x] Add packet loss/delay/duplication simulation to test reliability.
+- [ ] Add packet corruption simulation.
 - [ ] Implement Delayed ACK (RFC 1122) to reduce ACK traffic.
 
 ## Network Simulation
